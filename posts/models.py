@@ -7,7 +7,7 @@ class Post(models.Model):
     Post model, related to 'owner', i.e. a User instance.
     Default image set so that we can always reference image.url.
     """
-     image_filter_choices = [
+    image_filter_choices = [
         ('1977', '1977'),
         ('brannan', 'Brannan'),
         ('earlybird', 'Earlybird'),
