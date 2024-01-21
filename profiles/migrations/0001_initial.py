@@ -23,8 +23,7 @@ class Migration(migrations.Migration):
                 ('updated_at', models.DateTimeField(auto_now=True)),
                 ('name', models.CharField(blank=True, max_length=255)),
                 ('content', models.TextField(blank=True)),
-                ('image', models.ImageField(default='profile_images/default_profile.jpg', upload_to=profiles.models.rename_file)),
-                ('artistId', models.IntegerField(null=True)),
+                ('image', models.ImageField(default='../default_profile', upload_to='images/')),
                 ('owner', models.OneToOneField(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
             ],
             options={
