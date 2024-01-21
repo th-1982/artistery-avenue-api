@@ -62,7 +62,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = 'DEV' in os.environ
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-th1982-artisteryavenuea-y7a781b1i2e.ws-eu107.gitpod.io', 'th-1982-artistery-avenue.herokuaapp.com', 'localhost']
+ALLOWED_HOSTS = ['8000-th1982-artisteryavenuea-y7a781b1i2e.ws-eu107.gitpod.io', 'th-1982-artistery-avenue-198c22334f81.herokuapp.com', 'localhost']
 
 if 'CLIENT_ORIGIN' in os.environ:
     CORS_ALLOWED_ORIGINS = [
