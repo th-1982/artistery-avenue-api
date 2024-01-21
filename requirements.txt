@@ -4,10 +4,12 @@ cachetools==5.3.2
 certifi==2022.6.15.1
 charset-normalizer==2.1.1
 cloudinary==1.38.0
+dj-database-url==0.5.0
 dj-rest-auth==2.1.9
 Django==3.2.23
 django-allauth==0.44.0
 django-cloudinary-storage==0.3.0
+django-cors-headers==4.3.1
 django-filter==23.5
 djangorestframework==3.14.0
 djangorestframework-simplejwt==4.7.2
@@ -19,9 +21,11 @@ google-cloud-storage==2.5.0
 google-crc32c==1.5.0
 google-resumable-media==2.3.3
 googleapis-common-protos==1.56.4
+gunicorn==21.2.0
 oauthlib==3.2.2
 Pillow==8.2.0
 protobuf==4.25.2
+psycopg2==2.9.9
 pyasn1==0.5.1
 pyasn1-modules==0.3.0
 pycodestyle==2.9.1
