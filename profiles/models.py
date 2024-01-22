@@ -13,6 +13,7 @@ class Profile(models.Model):
     image = models.ImageField(
         upload_to='images/', default='../profile_mgdafv'
     )
+    is_artist = models.BooleanField(default=False)
 
     class Meta:
         ordering = ["-created_at"]
