@@ -3,7 +3,7 @@ from drf_api.permissions import IsOwnerOrReadOnly
 from .models import Follower
 from .serializers import FollowerSerializer
 
-# Create your views here.
+
 class FollowerList(generics.ListCreateAPIView):
     """
     List all followers, i.e. all instances of a user

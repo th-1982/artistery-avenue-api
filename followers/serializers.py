@@ -18,6 +18,7 @@ class FollowerSerializer(serializers.ModelSerializer):
         ]
 
     def create(self, validated_data):
+        """Validate data or throw validation error"""
         try:
             return super().create(validated_data)
         except IntegrityError:
