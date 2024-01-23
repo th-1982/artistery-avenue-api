@@ -38,4 +38,5 @@ urlpatterns = [
     path('', include('reviews.urls')),
     path('', include('contacts.urls')),
     path('', include('walls.urls')),
+    path('', include('bookmarks.urls')),
 ]
