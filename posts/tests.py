@@ -1,12 +1,11 @@
-from django.test import TestCase
 from django.contrib.auth.models import User
-from .models import Post
 from rest_framework import status
 from rest_framework.test import APITestCase
+from .models import Post
 
-# Create your tests here.
 
 class PostListViewTests(APITestCase):
+    """Post list views test cases"""
     def setUp(self):
         User.objects.create_user(username='adam', password='pass')
 
@@ -16,7 +15,6 @@ class PostListViewTests(APITestCase):
         response = self.client.get('/posts/')
         self.assertEqual(response.status_code, status.HTTP_200_OK)
         
-
     def test_logged_in_user_can_create_post(self):
         self.client.login(username='adam', password='pass')
         response = self.client.post('/posts/', {'title': 'a title'})
@@ -30,6 +28,7 @@ class PostListViewTests(APITestCase):
 
 
 class PostDetailViewTests(APITestCase):
+    """Post detail view tests"""
     def setUp(self):
         adam = User.objects.create_user(username='adam', password='pass')
         brian = User.objects.create_user(username='brian', password='pass')
