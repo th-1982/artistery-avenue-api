@@ -107,6 +107,7 @@ INSTALLED_APPS = [
     'reviews',
     'contacts',
     'walls',
+    'bookmarks',
 ]
 SITE_ID = 1
 MIDDLEWARE = [
