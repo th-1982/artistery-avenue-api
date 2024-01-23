@@ -1,10 +1,8 @@
-from django.shortcuts import render
 from rest_framework import generics, permissions
 from drf_api.permissions import IsOwnerOrReadOnly
 from likes.models import Like
 from likes.serializers import LikeSerializer
 
-# Create your views here.
 
 class LikeList(generics.ListCreateAPIView):
     """
@@ -15,6 +13,9 @@ class LikeList(generics.ListCreateAPIView):
     queryset = Like.objects.all()
 
     def perform_create(self, serializer):
+        """
+        Passes the user as the owner when a like is created
+        """
         serializer.save(owner=self.request.user)
 
 

@@ -14,6 +14,7 @@ class LikeSerializer(serializers.ModelSerializer):
         model = Like
         fields = ['id', 'owner', 'post', 'created_at',]
 
+    # prevent users from liking the same post twice
     def create(self, validated_data):
         try:
             return super().create(validated_data)

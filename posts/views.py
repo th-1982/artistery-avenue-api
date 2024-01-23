@@ -53,3 +53,5 @@ class PostDetail(generics.RetrieveUpdateDestroyAPIView):
         likes_count=Count('likes', distinct=True),
         comments_count=Count('comment', distinct=True)
     ).order_by('-created_at')
+
+   
