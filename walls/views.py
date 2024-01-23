@@ -1,5 +1,5 @@
 from rest_framework import generics, permissions
-from artistery_avenue.permissions import IsOwnerOrReadOnly
+from drf_api.permissions import IsOwnerOrReadOnly
 from .models import Wall
 from .serializers import WallSerializer
 from django_filters.rest_framework import DjangoFilterBackend
