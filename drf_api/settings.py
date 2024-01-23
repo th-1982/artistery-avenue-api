@@ -106,6 +106,7 @@ INSTALLED_APPS = [
     'artists',
     'reviews',
     'contacts',
+    'walls',
 ]
 SITE_ID = 1
 MIDDLEWARE = [
