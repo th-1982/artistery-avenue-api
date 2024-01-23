@@ -8,13 +8,25 @@ from .settings import (
 
 @api_view()
 def root_route(request):
+    """
+    Displays a message to the user on the root
+    url of the application
+    """
     return Response({
         "message": "Welcome to my drf API!"
     })
 
+
 # dj-rest-auth logout view fix
 @api_view(['POST'])
 def logout_route(request):
+    """
+    Addresses an issue with:
+    dj-rest-auth has a bug that doesn't allow users to log out.
+    we set both cookies to an empty string and pass additional
+    attributes like secure, httponly and samesite, which was
+    left out by mistake by the library.
+    """
     response = Response()
     response.set_cookie(
         key=JWT_AUTH_COOKIE,
