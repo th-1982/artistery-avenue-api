@@ -162,7 +162,7 @@ Users can then:
 
 ## Features and Functionality for Superusers
 
-As a Superuser, one can perform the following via the [admin panel](https:):
+As a Superuser, one can perform the following via the [admin panel](https://th-1982-artistery-avenue-198c22334f81.herokuapp.com/admin/login/?next=/admin/):
 - CRUD Posts
 - CRUD Artists
 - CRUD Comments
@@ -227,4 +227,54 @@ To install, the following command ran: ```pip install``` ...
 - types-cryptography==3.3.23
 - tzdata==2022.2
 - urllib3==1.26.12
+
+# Development & Deployment
+The project was developed using GitHub and GitPod platforms...
+- Navigate to: "Repositories" and create "New".
+- Mark the following fields: ✓ Public ✓ Add a README file.
+- Select template: "Code-Institute-Org/python-essentials-template".
+- Add a Repository name: "drf-api".
+- ...and create Repository.
+
+... and suffered various executions using the inbuild Terminal.
+
+For Commits on this project, the following commands ran:
+- ```git add .``` <- Stages before commiting.
+- ```git commit -m "written imperative declaration"``` <- Declares changes and updates.
+- ```git push``` <- Push all updates to the GitHub Repository.
+
+To run the server locally (Debug = True), the following command ran:
+- ```python manage.py runserver``` <- Loads the website on the in-built Terminal.
+
+During development migrations to the database were made.
+To make migrations the following commands ran:
+- ```python manage.py makemigrations``` <- Creates a new database migration
+- ```python manage.py migrate``` <- Applies pending migrations
+
+To create or update Requirements.txt file the following commands ran:
+- ```pip3 freeze --local > requirements.txt```  <-Runs the req.
+- ```pip install -r requirements.txt``` <- Install req.
+
+To create a Superuser the following command ran (from Heroku terminal): 
+- ```python manage.py createsuperuser``` (username->email->password1->password2) <- Creates a Superuser
+
+To create a new Django project, in the currenct directory, the followig command ran:
+- ```django-admin startproject NAMEOFTHEPROJECT .``` <- Starts the project
+
+To create the app the following command ran:
+- ```python3 manage.py startapp NAMOFTHEAPP``` <- Creates a folder for the app withing the project
+- 
+The website is being hosted and deployed on Heroku:
+- After creating an Heroku Free account, and applying for Student Pack
+- Navigate to: "Create new app" add a unique name "djangorestframework-api" and select "Europe" region. Click "Create App"
+- Head over to "Settings" tab and apply the respective config VARs
+- Move to "Deploy" section and select "Github" method"
+- From here search for the repository name "connect", from the GitHub account.
+- Hit "Connect" and "Enable Automatic Deploys" to keep the the repository in parallel to Heroku.
+- Manually "Deploy Main Branch".
+- Upon successful deployment, retrieve the link for the mock terminal.
+- The live app can be found [here](https://th-1982-artistery-avenue-198c22334f81.herokuapp.com/).
+
+## Languages & Technologies
+- Django REST Framework (Python Framework - API)
 
