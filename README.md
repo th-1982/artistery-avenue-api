@@ -174,10 +174,57 @@ As a Superuser, one can perform the following via the [admin panel](https:):
 - Change Passwords
 - Promote users to Superuser
 
-<img src="readme/" alt="Admin Panel (local)">
+<img src="readme/admin-panel.png" alt="Admin Panel (local)">
 
+## Manuel Testing
+Manual Testing for the overall functionality of the API was performed by entering dummy data in the backend both via Backend-and Front-end.
+All data is CRUDed accordingly.
 
+CI Python Linter was also used in parallel with the development of the API, to keep the code free of errors.
 
+The Code has not exhibited apparent errors after consecutive tests and corrections throughout the development. Test Commits were exectuted in attempts to test the responsivness with the Front and the deployed Back-end.
 
+<img src="readme/>
 
+## Installed Python Packages
+The following packages were installed when developing this project:
+To install, the following command ran: ```pip install``` ...
+- ```Pillow==8.2.0``` <- Python Imaging Library
+- ```psycopg2==2.9.9``` <- PostgreSQL adapter for Python
+- ```cloudinary==1.38.0``` <- Cloudinary - cloud-based image and video host
+- ```dj-database-url==0.5.0``` <- Utility library for Django
+- ```dj-rest-auth==2.1.9``` <- Authentication functionality for DjangoRESTFramework-based APIs
+- ```Django==3.2.23``` <- Python web framework
+- ```django-allauth==0.44.0``` <- Extension for Django to a customizable authentication system
+- ```django-cloudinary-storage==0.3.0``` <- Cloudinary - Backend storage for static media files
+- ```django-cors-headers==4.3.1``` <- Middleware Cross-Origin Resource Sharing (CORS)
+- ```django-filter==23.5``` <- Package to simplify filtering QuerySets
+- ```djangorestframework==3.14.0``` <- Toolkit for building Web APIs
+- ```djangorestframework-simplejwt==4.7.2``` <- Extension that provides JSON Web Token (JWT) authentication
+- ```gunicorn==21.2.0``` <- WSGI HTTP server for running Python web applications
+- ```PyJWT==2.8.0``` <- Library for working with JSON Web Tokens (JWT)
+
+## Package Dependencies
+- asgiref==3.7.2
+- autopep8==1.7.0
+- cachetools==5.3.2
+- certifi==2022.6.15.1
+- charset-normalizer==2.1.1
+- cryptography==38.0.1
+- idna==3.3
+- oauthlib==3.2.2
+- protobuf==4.25.2
+- pyasn1==0.5.1
+- pyasn1-modules==0.3.0
+- pycodestyle==2.9.1
+- python3-openid==3.2.0
+- pytz==2023.3.post1
+- requests==2.28.1
+- requests-oauthlib==1.3.1
+- rsa==4.9
+- sqlparse==0.4.4
+- toml==0.10.2
+- types-cryptography==3.3.23
+- tzdata==2022.2
+- urllib3==1.26.12
 
