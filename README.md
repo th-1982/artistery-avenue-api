@@ -278,3 +278,19 @@ The website is being hosted and deployed on Heroku:
 ## Languages & Technologies
 - Django REST Framework (Python Framework - API)
 
+## Other forms of development
+- [CI Python Linter](https://pep8ci.herokuapp.com/) - CI Python testing tool
+- [Lucidchart](https://www.lucidchart.com/) - Diagramming and visualization tool 
+- [Github](https://github.com/) - Host for the repository
+- [Gitpod](https://gitpod.io/) - Code editor
+- [ElephantSQL](https://www.elephantsql.com/) - Database
+- [Cloudinary](https://cloudinary.com/) - Static & Media host
+- [TinyPNG](https://tinypng.com/) - Image compression tool
+- [Heroku](https://id.heroku.com/) - Cloud platform/Host the live project
+
+## Credits
+The following sources and references were resorted for the creation of this website:
+- The lessons and tutorials provided by Code Institute on the final module entitled "Django REST Framework" for the 'Advanced Front-End' specialization
+- This README file and some of the Code were also taken and guided by the README file from [TiagoMA90](https://github.com/TiagoMA90/drf-api) and my mentor Gareth McGirr exemplar repo [body-doodles-api](https://github.com/Gareth-McGirr/body-doodles-api).
+- The Tutor team provided by Code Institutes Student Support
+- Slack(#project-portfolio-5-advanced-frontend) as a solution platform for broken Code and guidance on how to proceed to blockades
