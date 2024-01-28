@@ -130,7 +130,7 @@ Under Barker's notation, one/or many Users can create multiple Profiles or Artis
 
 - I created the entity-relationship diagram using Lucidchart, following the conventions of Barker's notation.
 
-<img src="readme/ArtistRelationshipDiagram.jpeg" alt="Models Digram">
+<img src="readme/ArtistsRelationshipDiagram.png" alt="Models Digram">
 
 ## Methodology CRUD
 When performing CRUD (Create, Retrieve, Update, Delete) function-based views, the following methods were used to manipulate the table in the database.
