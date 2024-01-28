@@ -5,6 +5,7 @@ The deployed DjangoRESTFramework API can be found [here](https://th-1982-artiste
 # Purpose of the API:
 To serve as the backend infrastructure for the front end by posting  (POST) and retrieving (GET) data from endpoints and performing create, read, update, and delete operations on objects users enter via the front end. 
 
+
 ## Planning & Agile:
 This [project](https://github.com/users/th-1982/projects/12/views/1?visibleFields=%5B%22Title%22%2C%22Assignees%22%2C%22Status%22%2C74798578%2C74798580%2C74798579%2C%22Milestone%22%2C%22Labels%22%5D) was planned and developed using Agile methodology.
 
@@ -130,5 +131,53 @@ Under Barker's notation, one/or many Users can create multiple Profiles or Artis
 - I created the entity-relationship diagram using Lucidchart, following the conventions of Barker's notation.
 
 <img src="readme/ArtistRelationshipDiagram.jpeg" alt="Models Digram">
+
+## Methodology CRUD
+When performing CRUD (Create, Retrieve, Update, Delete) function-based views, the following methods were used to manipulate the table in the database.
+
+For such, to the subsequent endpoints:
+/profiles/, /artists/, /posts/, /comments/, /likes/, /followers/, /reviews/, /walls/, /bookmarks/, /contacts/
+
+- POST - Used to create an object to a list of (endpoint)
+- GET - Used to retrieve a series of objects from a list of (endpoint)
+
+Singularly, for the same endpoints past the primary keys:
+/profiles/int:pk/, /artists/int:pk/, /posts/int:pk/int:pk/, /comments/int:pk/, /likes/int:pk/, /followers/int:pk/, /reviews/int:pk/, /walls/int:pk/, /bookmarks/int:pk/, /contacts/int:pk/
+
+- GET - Used to view a single object in a list or (endpoint)
+- PUT - Used to update a single object in a list of (endpoint)
+- DELETE - Used to delete an existing single object from a list of (endpoint)
+
+Users can then:
+- CRUD Profiles
+- CRUD Artists
+- CRUD Posts
+- CRUD Comments
+- CRUD Likes
+- CRUD Followers
+- CRU Reviews
+- CRU Walls
+- CRUD Bookmarks
+- CR Contacts
+
+## Features and Functionality for Superusers
+
+As a Superuser, one can perform the following via the [admin panel](https:):
+- CRUD Posts
+- CRUD Artists
+- CRUD Comments
+- CRUD Profiles
+- CRUD Reviews
+- CRUD Walls
+- CRUD Contacts
+- CRUD Bookmarks
+- Change Passwords
+- Promote users to Superuser
+
+<img src="readme/" alt="Admin Panel (local)">
+
+
+
+
 
 
