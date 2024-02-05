@@ -266,11 +266,11 @@ To create the app the following command ran:
 - 
 The website is being hosted and deployed on Heroku:
 - After creating an Heroku Free account, and applying for Student Pack
-- Navigate to: "Create new app" add a unique name "djangorestframework-api" and select "Europe" region. Click "Create App"
+- Navigate to: "Create new app" add a unique name "th-1982-artistery-avenue" and select "Europe" region. Click "Create App"
 - Head over to "Settings" tab and apply the respective config VARs
 - Move to "Deploy" section and select "Github" method"
-- From here search for the repository name "connect", from the GitHub account.
-- Hit "Connect" and "Enable Automatic Deploys" to keep the the repository in parallel to Heroku.
+- From here search for the repository name "th-1892/artistery-avenue-api", from the GitHub account.
+- Hit "th-1892/artistery-avenue-api" and "Enable Automatic Deploys" to keep the the repository in parallel to Heroku.
 - Manually "Deploy Main Branch".
 - Upon successful deployment, retrieve the link for the mock terminal.
 - The live app can be found [here](https://th-1982-artistery-avenue-198c22334f81.herokuapp.com/).
