@@ -1,6 +1,8 @@
 from rest_framework import serializers
 from posts.models import Post
 from likes.models import Like
+from bookmarks.models import Bookmark
+
 
 
 class PostSerializer(serializers.ModelSerializer):
@@ -49,6 +51,19 @@ class PostSerializer(serializers.ModelSerializer):
             ).first()
             return like.id if like else None
         return None
+
+    def get_bookmark_id(self, obj):
+        """
+        returns the bookmark id if it exists for the post
+        """
+        user = self.context['request'].user
+        if user.is_authenticated:
+            bookmark = Bookmark.objects.filter(
+                owner=user, post=obj
+            ).first()
+            return bookmark.id if bookmark else None
+        return None
+
 
     def get_is_owner(self, obj):
         """
