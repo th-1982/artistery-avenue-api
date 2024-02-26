@@ -18,3 +18,5 @@ class BookmarkDetail(generics.RetrieveDestroyAPIView):
     permission_classes = [IsOwnerOrReadOnly]
     serializer_class = BookmarkSerializer
     queryset = Bookmark.objects.all()
+
+    
