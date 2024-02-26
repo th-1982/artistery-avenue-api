@@ -295,14 +295,21 @@ The website is being hosted and deployed on Heroku:
 - Django REST Framework (Python Framework - API)
 
 ## Other forms of development
-- [CI Python Linter](https://pep8ci.herokuapp.com/) - CI Python testing tool
+## Other forms of development
+- [Google Fonts](https://fonts.google.com/) - Source of fonts
+- [FontAwesome](https://fontawesome.com/) - Source of icons
+- [Bytes.dev](https://bytes.dev/) - Testing screen sizes
+- Chrome DevTools - Testing tool
+- [WAVE Evaluation tool](https://wave.webaim.org/) - Testing tool
+- [W3jigsaw](https://jigsaw.w3.org/css-validator/) - CSS validation tool
+- [JSHint](https://jshint.com/) - Javascript testing tool
 - [Lucidchart](https://www.lucidchart.com/) - Diagramming and visualization tool 
 - [Github](https://github.com/) - Host for the repository
-- [Gitpod](https://gitpod.io/) - Code editor
+- [Gitpod](https://gitpod.io/workspaces) - Code editor
 - [ElephantSQL](https://www.elephantsql.com/) - Database
 - [Cloudinary](https://cloudinary.com/) - Static & Media host
 - [TinyPNG](https://tinypng.com/) - Image compression tool
-- [Heroku](https://id.heroku.com/) - Cloud platform/Host the live project
+- [Heroku](https://id.heroku.com/login) - Cloud platform/Host the live project
 
 ## Credits
 ### Media 
