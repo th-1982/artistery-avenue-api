@@ -185,7 +185,22 @@ CI Python Linter was also used in parallel with the development of the API, to k
 
 The Code has not exhibited apparent errors after consecutive tests and corrections throughout the development. Test Commits were exectuted in attempts to test the responsivness with the Front and the deployed Back-end.
 
-<img src="readme/>
+**Pep8 results:**<br>
+<details>
+<summary>Artists app</summary>
+
+* **models.py**<br>
+<img src="readme/artist-model-test.jpg" width="60%"><br><br>
+
+* **serializer.py**<br>
+<img src="readme/artits-serial-test.jpg" width="60%"><br><br>
+
+* **view.py**<br>
+<img src="readme/artists-views-test.jpg" width="60%"><br><br>
+
+</details>
+<br>
+
 
 ## Installed Python Packages
 The following packages were installed when developing this project:
