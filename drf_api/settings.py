@@ -67,6 +67,16 @@ DEBUG = False
 ALLOWED_HOSTS = ['8000-th1982-artisteryavenuea-y7a781b1i2e.ws-eu107.gitpod.io', '8000-th1982-artisteryavenuea-y7a781b1i2e.ws-eu108.gitpod.io',
 'th-1982-artistery-avenue-198c22334f81.herokuapp.com', 'localhost']
 
+# Add Render.com URL to allowed hosts
+RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
+if RENDER_EXTERNAL_HOSTNAME:
+    ALLOWED_HOSTS.append(RENDER_EXTERNAL_HOSTNAME)
+
+if 'CLIENT_ORIGIN' in os.environ:
+    CORS_ALLOWED_ORIGINS = [
+        os.environ.get('CLIENT_ORIGIN')
+    ]
+
 if 'CLIENT_ORIGIN_DEV' in os.environ:
     extracted_url = re.match(r'^.+-', os.environ.get('CLIENT_ORIGIN_DEV', ''), re.IGNORECASE).group(0) 
     CORS_ALLOWED_ORIGIN_REGEXES = [ rf"{extracted_url}(eu|us)\d+\w\.gitpod\.io$", ]
