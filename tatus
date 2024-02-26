@@ -1,0 +1,594 @@
+[33mcommit c339466cfdde5083e24444e9eac76d53eed6f95e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Mon Feb 26 02:01:59 2024 +0000
+
+    Update the Language and Frameworks section in README
+
+[33mcommit 7bc9e406b98bbbee7eb214f653900cb470d71718[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Mon Feb 26 01:57:34 2024 +0000
+
+    Add Credits section to README
+
+[33mcommit b4e40c40a170a8b96c292ebad1d45d3aba5cfd25[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Mon Feb 26 00:47:02 2024 +0000
+
+    Add conduct manual testing and PEP8 checks
+
+[33mcommit f689d4bc39d11c8fde8c3ea522cf1a00ba011376[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Mon Feb 26 00:09:19 2024 +0000
+
+    Update README with new Entity Relationship Diagram
+
+[33mcommit 717d8886a3780089c36b724801741d1fe91effb9[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sun Feb 25 23:14:31 2024 +0000
+
+    Remove bookmark_id from PostSerializer
+
+[33mcommit 1e69fd1202c82ded980c20619a40d2d560aaa919[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sun Feb 25 22:29:20 2024 +0000
+
+    Add bookmark_id to PostSerializer
+
+[33mcommit eb6320f5c4341e187463beb3fca6535b2797f57d[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sun Feb 25 20:58:51 2024 +0000
+
+    Umcomment bookmarks__created_at
+
+[33mcommit 27290246d1ee09704d6446df384a699a60deb247[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sun Feb 25 20:19:23 2024 +0000
+
+    Update post views
+
+[33mcommit f4453ce64012a018ffe3324b3169b89f4c5ef008[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sun Feb 25 20:05:43 2024 +0000
+
+    Update bookmark model
+
+[33mcommit f09509d214211b4a02ba3aaa8bbf00690eab9289[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sun Feb 25 20:02:04 2024 +0000
+
+    Add bookmark function to bookmark serializer and bookmark views
+
+[33mcommit 4016143b15cf55bf85650832ac48cd1e7c584df8[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Thu Feb 22 03:17:39 2024 +0000
+
+    Update reviews
+
+[33mcommit 0bdaa321c39dada8a592fd784439200b27ed7ac0[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Wed Feb 21 13:38:38 2024 +0000
+
+    Update DEBUG setting
+
+[33mcommit 95bc99b1b1a7ac2bad33bb8e2d6456401adc128c[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Mon Feb 19 22:27:49 2024 +0000
+
+    Update the models.py, serializers.py and views.py of contact app
+
+[33mcommit 2426d676122448a32a809a13d7822197ab5eb625[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Fri Feb 16 11:57:02 2024 +0000
+
+    Update the urls.py
+
+[33mcommit 37f4f58290bd54016ad6c588d1c6367f0926efb8[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Fri Feb 16 11:47:44 2024 +0000
+
+    Update the api.auth
+
+[33mcommit 3dc9b3bde6faf53b9155a02a39d8cc7041f11f97[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Fri Feb 16 11:20:38 2024 +0000
+
+    Refactor urls patterns for better organization
+
+[33mcommit d1157c7bc845b4dafa46f9499998aa98a3e78205[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Fri Feb 16 10:24:15 2024 +0000
+
+    Add the logout route to the url_patterns
+
+[33mcommit 4cf551aabdc15981895a0106148f102a632847a0[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sat Feb 10 17:21:12 2024 +0000
+
+    Update the setting.py file
+
+[33mcommit 49593a24fa00cf63e447790a59ebe3d7b8242e7c[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sat Feb 10 17:14:40 2024 +0000
+
+    Fix the client_origin_dev in setting.py
+
+[33mcommit 285adcc7885bbf50df6caa858027217aa56f8db7[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Mon Feb 5 00:08:01 2024 +0000
+
+    Update development and deployment section in README.md
+
+[33mcommit 2b4b921b3fac1dce3ec1e4d10c8f5974164363fd[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sun Feb 4 23:26:29 2024 +0000
+
+    Included Miscellaneous in the Planning & Agile segment of README.md
+
+[33mcommit 82c5fcf57f718e745388f26d5de1f08b08a04c71[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sat Feb 3 21:38:25 2024 +0000
+
+    Upadate the readme.md
+
+[33mcommit 910bafe20a245f45d19292bad6718bf29c4d251f[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sun Jan 28 22:36:01 2024 +0000
+
+    Update the README.md
+
+[33mcommit e22ce3725c7c94dbde512d3da62326dfbf94b142[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sun Jan 28 22:22:25 2024 +0000
+
+    Add the sources and references to README.md
+
+[33mcommit 662d19f2d800adc727e75a1b66bde077e2eeddab[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sun Jan 28 21:24:25 2024 +0000
+
+    Update README.md
+
+[33mcommit e1b39211d14cda291838b46384d64913d80636d7[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sun Jan 28 21:01:26 2024 +0000
+
+    Add installed Python packages and package dependencies to readme.md
+
+[33mcommit 9d8fd5dceec008a18c312a8683f97af7e3b8d496[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sun Jan 28 14:46:47 2024 +0000
+
+    Add superuser functionalities to readme.md
+
+[33mcommit 72f8c4c8d5ddcce843018bff12fe1d396115a208[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sun Jan 28 02:47:01 2024 +0000
+
+    Add relationship diagram to readme.md
+
+[33mcommit 074166e88ceffadbeaad659131de4a68358de631[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sun Jan 28 01:01:59 2024 +0000
+
+    Update readme.md on Agile
+
+[33mcommit 94f058a8ca78d75f336a317ed4f272a78cdba765[m
+Merge: 3034cfe 8dbf33f
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sat Jan 27 22:03:43 2024 +0000
+
+    Add milestone and board to update the readme.md
+
+[33mcommit 3034cfe7aadefae801f3adb85be05fea3cc6a340[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sat Jan 27 21:33:24 2024 +0000
+
+    Add the milestone and board to update the readme.md
+
+[33mcommit 8dbf33f9f60d8736be87a2c071c9cbfbedd11ba2[m
+Author: Theresa <127891115+th-1982@users.noreply.github.com>
+Date:   Thu Jan 25 11:31:34 2024 +0100
+
+    Add a new user story template
+
+[33mcommit ccd65238f67793ca604e1255d735ea5e6777b7c1[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Wed Jan 24 10:55:09 2024 +0000
+
+    Create README.md
+
+[33mcommit aefe8e54f121dc891b65a9308f09462697575e94[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Tue Jan 23 15:44:39 2024 +0000
+
+    Update the serializers.py and views.py of the drf_api project
+
+[33mcommit d4c4d3e89642eb644d7385a6c7216f0ff62ef7d9[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Tue Jan 23 15:11:38 2024 +0000
+
+    Fix the indentation error in the comments serializers
+
+[33mcommit dcde00e80d554f65babd6a288bf84ac921fdc69e[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Tue Jan 23 13:46:56 2024 +0000
+
+    Update the followers serializers and views
+
+[33mcommit 3493e5f9da5c3cca5fec922524b5232c7b4e7ca2[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Tue Jan 23 13:42:33 2024 +0000
+
+    Update the comments serializers
+
+[33mcommit 30667c3ef9c40fb0ed7cb027f64b2efc6e5d1a65[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Tue Jan 23 13:36:51 2024 +0000
+
+    Add comment to likes serializers and views
+
+[33mcommit 5636c53fc37ac4580e561a31012d745d7e26bc69[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Tue Jan 23 13:30:02 2024 +0000
+
+    Update PostDetail view for retrieving, editing, and deleting posts
+
+[33mcommit 9d1a855ed9805eb250f1ebdba4fc902f65f9a3dd[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Tue Jan 23 13:19:48 2024 +0000
+
+    Update the tests.py file in posts app
+
+[33mcommit 459adcc605e03882d9a68a446ec2072938bd3c05[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Tue Jan 23 13:13:15 2024 +0000
+
+    Update the posts serializers and add the get_is_owner function to posts serializers
+
+[33mcommit 2fc27d9859186bee030041a52378bf830fdb2752[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Tue Jan 23 13:04:04 2024 +0000
+
+    Add a functions to rename a file before uploading
+
+[33mcommit 7261949e29d835cba95259bfd9472a299216fd87[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Tue Jan 23 02:52:04 2024 +0000
+
+    Add comment to profile serializers.py file
+
+[33mcommit d1fdef699a0ca497c1a84a16b5cf100e3fc11c1d[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Tue Jan 23 02:29:51 2024 +0000
+
+    Register bookmarks models in Django model admin
+
+[33mcommit 5fa2b7eca4bcd5176bf50a240e16c97f7af09fed[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Tue Jan 23 02:24:39 2024 +0000
+
+    Add the bookmarks views and url pattern
+
+[33mcommit 9760c7c0de3696d2644ca2b7fc6744eac7d54353[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Tue Jan 23 02:18:22 2024 +0000
+
+    Add bookmarks models and serializers
+
+[33mcommit 92307ebb6ee6f8cedc748488aae09556b4c0d73a[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Tue Jan 23 02:10:14 2024 +0000
+
+    Add the bookmarks app and update the setting.py file
+
+[33mcommit 09b31c4b5834ea785a9aa4c7380fe6db63a5fb3c[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Tue Jan 23 02:05:32 2024 +0000
+
+    Fix the views.py
+
+[33mcommit f6a0f396f57edc57885c3b43aa030182206079a1[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Tue Jan 23 02:00:08 2024 +0000
+
+    Update the admin.py fill
+
+[33mcommit c59ffe880f89fa6c4ab836d5ba44c55dfbec140c[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Tue Jan 23 01:54:30 2024 +0000
+
+    Add the walls views and url
+
+[33mcommit eec39edef31b37ebd473f83291c360074214b704[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Tue Jan 23 01:44:17 2024 +0000
+
+    Add walls models and serializers
+
+[33mcommit 63e90443fcc8266e752cef752c9110c2eb8933f1[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Tue Jan 23 01:35:56 2024 +0000
+
+    Add walls app and update the setting.py
+
+[33mcommit 615b1d5fb22bcc34e69f66cc449afd8bf7c1fc78[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Tue Jan 23 01:19:46 2024 +0000
+
+    Add contacts views, urls and update the admin.py file in contacts app
+
+[33mcommit 88fa82988c8f95608643449aa91ca0c13b925446[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Tue Jan 23 01:07:06 2024 +0000
+
+    Add contacts models and serializers
+
+[33mcommit 969517ad42e6ecbf5760dcf8060b5308d0aac029[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Tue Jan 23 00:58:41 2024 +0000
+
+    Create contacts app and update the setting.py file
+
+[33mcommit 84a4c01154323f84a9442c8623cecfa8ef0bd044[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Tue Jan 23 00:45:17 2024 +0000
+
+    Add the reviews views, url and update the admin.py file
+
+[33mcommit b75dcd3a3a45151446a0bebc111edca41e020af2[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Tue Jan 23 00:30:38 2024 +0000
+
+    Add reviews model and serializers
+
+[33mcommit 2422177e846f98d1a4f7a2300026b5c7f53f8cdc[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Tue Jan 23 00:20:31 2024 +0000
+
+    Add reviews app and update the setting.py
+
+[33mcommit 9de8808042a4c85d9e14d087db9669ce8ec3b9bb[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Tue Jan 23 00:13:53 2024 +0000
+
+    Add Artists model, serializers, views and url pattern for artists
+
+[33mcommit e16cf8b1abd4d05a18b3b3c716018c138cb3bb36[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Mon Jan 22 21:56:01 2024 +0000
+
+    delete migration, __pycache__, reset database & make a new magration
+
+[33mcommit 448fb94b14372db8ab0ac2fc16f86f22a48dac84[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sun Jan 21 23:36:53 2024 +0000
+
+    Update the ProfileList view
+
+[33mcommit 79ba8a712d8bdb9501c5ceda8028a0dca87fd19d[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sun Jan 21 21:12:00 2024 +0000
+
+    Fix the image field in profile model
+
+[33mcommit 778997fce90994229b6bc7afea73aa9019138651[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sun Jan 21 20:37:21 2024 +0000
+
+    Fix: update the image field in profile model
+
+[33mcommit d88e0d8c78a5a1c38ac0a51f82aa41869aa50d5b[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sun Jan 21 19:23:30 2024 +0000
+
+    Update ALLOWED_HOSTS
+
+[33mcommit 48dcdff070e225828ba62e995e7a5175912bbf9f[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sun Jan 21 19:15:20 2024 +0000
+
+    Configure settings.py for deployment
+
+[33mcommit caaf1c48512b9b87a58bf8d0dfaa91915829f535[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sun Jan 21 14:28:11 2024 +0000
+
+    Create root_route, JSON renderer and date/time formatting
+
+[33mcommit b62cb1d5263c48b72a0c21cd8ef5fca52d2826ce[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sun Jan 21 14:10:55 2024 +0000
+
+    Create route_route view to display message
+
+[33mcommit ca680e4165cd4d68a54a7689108a3f4de172f2de[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sun Jan 21 13:47:38 2024 +0000
+
+    Add JSON Web Tokens and configure settings.py
+
+[33mcommit 5045e0fd80931e60a362d8413fae82e10ad12dc3[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sun Jan 21 02:09:42 2024 +0000
+
+    Add filter to commentList to filter by post id
+
+[33mcommit 255e2c32bb697702faa07a7602200a995bee2dc7[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sun Jan 21 01:57:14 2024 +0000
+
+    Update the requirements .txt file
+
+[33mcommit f1b0cceeaef73ed14e69554b7488ea2412d1109a[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sun Jan 21 01:37:11 2024 +0000
+
+    Add filterset_filds to posts and profiles
+
+[33mcommit 0cfce67e131229798d3cf201eafc0c5a83abcf4b[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sun Jan 21 01:05:38 2024 +0000
+
+    Add SearchFilter and search_fields to PostList view
+
+[33mcommit 9826d1f1e6ec11517e3a59bc5be3e1bb6f8f598a[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sun Jan 21 00:48:20 2024 +0000
+
+    Add likes_count and comments_counts field to post
+
+[33mcommit aa6f27cf17d9116e447bed1d1f861b2ac481fcaa[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sun Jan 21 00:21:24 2024 +0000
+
+    Add like_id field PostSerializer
+
+[33mcommit cead092789b297cc0f2c5ec3fc8a8decd8a363d0[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sat Jan 20 23:49:12 2024 +0000
+
+    Add ReadOnlyFields to ProfileSerializer
+
+[33mcommit c3bde087e611b4d839c3be6811c7096018b5f610[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sat Jan 20 22:19:07 2024 +0000
+
+    Annotate Profile views' querysets
+
+[33mcommit 12623000ed77f9336ab43c9fdd7c949b2d4abd2f[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sat Jan 20 22:06:28 2024 +0000
+
+    Add following_id to ProfileSerializer
+
+[33mcommit 8fc1163764e3d7d060ca840347f2eb1461cf89f8[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sat Jan 20 21:59:27 2024 +0000
+
+    Refactor post views to use generics
+
+[33mcommit 2a468a2431ffdb1204448bcf4aac6442cce64d35[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sat Jan 20 21:30:20 2024 +0000
+
+    Refactor profiles views to use generics
+
+[33mcommit 623a58c8d0b6b1234af58a2a8fbbd52900485ecd[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sat Jan 20 21:18:47 2024 +0000
+
+    Create the FollowerList and FollowerDetail generic views
+
+[33mcommit 2a59797c088046c37e376c2772a9701bd963af1f[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sat Jan 20 21:10:57 2024 +0000
+
+    Create FollowerSerializer
+
+[33mcommit 7bd7a20ad82da736d9820a33bc43821895e14659[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Sat Jan 20 21:05:18 2024 +0000
+
+    Creates followers app
+
+[33mcommit cb98fc7d41259d0202922182756e958bc3034c14[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Fri Jan 19 21:48:46 2024 +0000
+
+    Create Like list and Detail views
+
+[33mcommit 47ab919dd1fd213c5fea6c5fafc1133e9bfb6e35[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Fri Jan 19 21:26:07 2024 +0000
+
+    Create likes app, model and Serializer
+
+[33mcommit 8f41032c6dd4388c2867c4c7c2bd321d49e2e962[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Fri Jan 19 21:01:49 2024 +0000
+
+    Add CommentList and CommentDetail views
+
+[33mcommit 4cec0b919eae18fca428f4d88473356ffdfc6f21[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Fri Jan 19 12:12:24 2024 +0000
+
+    Create CommentDetailSerializer
+
+[33mcommit c56a9521c526fcbb76d20f74862501e7122751e0[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Fri Jan 19 12:05:25 2024 +0000
+
+    Create comments app, model and serializers
+
+[33mcommit 27d284bb682d3909435f7085e30645621378e776[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Fri Jan 19 11:36:42 2024 +0000
+
+    Add PostList view tests and PostDetail view tests
+
+[33mcommit 059d0e14cad3553f91baa6d40d6e30a0ace4d5fb[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Fri Jan 19 10:32:23 2024 +0000
+
+    Add PostDetail view to get, edit and delete posts
+
+[33mcommit 0f01538789fd3e94918026e8db20d055030a96fd[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Fri Jan 19 10:05:58 2024 +0000
+
+    Add PostList view, list and create a post
+
+[33mcommit 1c4f016390fecf6ac28c12f8dccf24aa923c94cd[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Fri Jan 19 09:25:58 2024 +0000
+
+    Add image filter and image validation for posts
+
+[33mcommit 2648c11521596278b3801776bb0c26f23168f280[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Fri Jan 19 08:42:40 2024 +0000
+
+    Create posts app, Post model and serializer
+
+[33mcommit 5afaacd68a45938318a5ddd33a764b316fa7cb2d[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Fri Jan 19 08:03:27 2024 +0000
+
+    Add ProfileDetail view & add is_owner to serializer
+
+[33mcommit bcb393b8f2c64fa687db627d24d5658a595c75ae[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Thu Jan 18 21:46:56 2024 +0000
+
+    Add ProfileDetail view
+
+[33mcommit 3d677c862f7e1c129523cf32cd492c2689743459[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Thu Jan 18 20:33:40 2024 +0000
+
+    Create serializers.py
+
+[33mcommit eb38fc14686217478f088885095d27967f7a7876[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Thu Jan 18 20:07:10 2024 +0000
+
+    Add ProfileList in views.py
+
+[33mcommit 966125674c09e78b90cbcf7a2e138b730f8ee280[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Thu Jan 18 01:09:23 2024 +0000
+
+    Create profiles model, superuser and freeze requirements
+
+[33mcommit 6b33af8f54405d316347d0f20bd7e43ab5729c98[m
+Author: Theresa Wolff <theresawolff4@gmail.com>
+Date:   Wed Jan 17 21:26:17 2024 +0000
+
+    Create django project & configure Cloudinary
+
+[33mcommit 60d4fa4d109a036d7c0516d59160a118bce1c49f[m
+Author: Theresa <127891115+th-1982@users.noreply.github.com>
+Date:   Wed Jan 17 21:21:55 2024 +0100
+
+    Initial commit
