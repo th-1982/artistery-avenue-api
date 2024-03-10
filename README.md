@@ -1,5 +1,5 @@
 # Artistery Avenue API
-"Artisery Avenue Api" is the backend service used by the [Artistery Avenue](https://) platform.
+"Artisery Avenue Api" is the backend service used by the [Artistery Avenue](https://github.com/th-1982/artistery-avenue) platform.
 The deployed DjangoRESTFramework API can be found [here](https://th-1982-artistery-avenue-198c22334f81.herokuapp.com/)
 
 # Purpose of the API:
@@ -189,13 +189,13 @@ The Code has not exhibited apparent errors after consecutive tests and correctio
 <details>
 <summary>Artists app</summary>
 
-* **models.py**<br>
+- **models.py**<br>
 <img src="readme/artist-model-test.jpg" width="60%"><br><br>
 
-* **serializer.py**<br>
+- **serializer.py**<br>
 <img src="readme/artits-serial-test.jpg" width="60%"><br><br>
 
-* **view.py**<br>
+- **view.py**<br>
 <img src="readme/artists-views-test.jpg" width="60%"><br><br>
 
 </details>
