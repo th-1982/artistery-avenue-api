@@ -187,6 +187,26 @@ The Code has not exhibited apparent errors after consecutive tests and correctio
 
 **Pep8 results:**<br>
 <details>
+<summary>Bookmark app</summary>
+
+- **models.py**<br>
+<img src="readme/model-bookmark.jpg" width="60%"><br><br>
+
+- **serializer.py**<br>
+<img src="readme/serializer-bookmark.jpg" width="60%"><br><br>
+
+- **view.py**<br>
+<img src="readme/view-bookmark.jpg" width="60%"><br><br>
+
+- **url.py**<br>
+<img src="readme/url-bookmark.jpg" width="60%"><br><br>
+
+
+
+</details>
+<br>
+
+<details>
 <summary>Artists app</summary>
 
 - **models.py**<br>
@@ -197,6 +217,63 @@ The Code has not exhibited apparent errors after consecutive tests and correctio
 
 - **view.py**<br>
 <img src="readme/artists-views-test.jpg" width="60%"><br><br>
+
+- **url.py**<br>
+<img src="readme/url-artist.jpg" width="60%"><br><br>
+
+</details>
+<br>
+
+<details>
+<summary>Wall app</summary>
+
+- **models.py**<br>
+<img src="readme/model-wall.jpg" width="60%"><br><br>
+
+- **serializer.py**<br>
+<img src="readme/serializer-wall.jpg" width="60%"><br><br>
+
+- **view.py**<br>
+<img src="readme/views-wall.jpg" width="60%"><br><br>
+
+- **url.py**<br>
+<img src="readme/urls-wall.jpg" width="60%"><br><br>
+
+</details>
+<br>
+
+<details>
+<summary>Review app</summary>
+
+- **models.py**<br>
+<img src="readme/model-review.jpg" width="60%"><br><br>
+
+- **serializer.py**<br>
+<img src="readme/serializer-review.jpg" width="60%"><br><br>
+
+- **view.py**<br>
+<img src="readme/views-review.jpg" width="60%"><br><br>
+
+- **url.py**<br>
+<img src="readme/urls-review.jpg" width="60%"><br><br>
+
+</details>
+<br>
+
+<details>
+<summary>Contact app</summary>
+
+- **models.py**<br>
+<img src="readme/model-contact.jpg" width="60%"><br><br>
+
+- **serializer.py**<br>
+<img src="readme/serializer-contacts.jpg" width="60%"><br><br>
+
+- **view.py**<br>
+<img src="readme/views-contact.jpg" width="60%"><br><br>
+
+- **url.py**<br>
+<img src="readme/urls-contact.jpg" width="60%"><br><br>
 
 </details>
 <br>
