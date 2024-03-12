@@ -3,7 +3,7 @@ from posts.models import Post
 from django.contrib.auth.models import User
 
 
-# Create your models here.
+
 class Bookmark(models.Model):
     post = models.ForeignKey(Post, related_name='bookmarks',
                              on_delete=models.CASCADE)

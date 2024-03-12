@@ -5,7 +5,7 @@ from .models import Comment
 from .serializers import CommentSerializer, CommentDetailSerializer
 
 
-# Create your views here.
+
 class CommentList(generics.ListCreateAPIView):
     """
     List comments or create a comment if logged in.
